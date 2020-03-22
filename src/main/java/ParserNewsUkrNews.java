@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class ParserNewsUkrNews implements ParserNews {
 
-    public static final String URL = "https://ukranews.com/news";
+    public static final String URL = AddressToSites.UKRNEWS.getUrl();
     public static final String HTTPS_UKRNEWS = "https://ukranews.com";
 
     @Override

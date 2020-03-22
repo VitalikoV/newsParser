@@ -9,7 +9,7 @@ import java.net.URL;
 public class ParserNewsBBC implements ParserNews {
 
 
-    private static final String URL = "https://www.bbc.com/ukrainian";
+    private static final String URL = AddressToSites.BBC.getUrl();
     private static final String BBC_COM = "https://www.bbc.com/";
 
     @Override

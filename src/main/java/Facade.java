@@ -44,7 +44,7 @@ public class Facade {
 
     private String getQuantityOfArticles(Scanner in) {
         String inputForQuantity;
-        System.out.println("how much news you want to see?");
+        System.out.println("how many articles you want to see?");
         pointerForInput();
         inputForQuantity = in.nextLine();
         exitFromConsole(inputForQuantity);
@@ -53,7 +53,7 @@ public class Facade {
 
     private String getArticle(Scanner in) {
         String readArticle;
-        System.out.println("\nMaybe you want to read article?(if yes - put URL, if no - (q + enter):\n");
+        System.out.println("\nDo you want to read article?(if yes - put URL, if no - (q + enter):\n");
         pointerForInput();
         readArticle = in.nextLine();
         exitFromConsole(readArticle);

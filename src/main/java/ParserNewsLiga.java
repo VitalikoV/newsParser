@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class ParserNewsLiga implements ParserNews {
 
-    public static final String URL = "https://news.liga.net";
+    public static final String URL = AddressToSites.LIGA.getUrl();
 
     @Override
     public void getNews(int quantityOfNews) throws IOException {

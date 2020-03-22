@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class ParserNewsNYTimes implements ParserNews {
 
-    public static final String URL = "https://www.nytimes.com/section/world";
+    public static final String URL = AddressToSites.NYTimes.getUrl();
     public static final String NYTIMES_COM = "https://www.nytimes.com";
 
     @Override

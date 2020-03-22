@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.net.URL;
 
 public class ParserNewsTheGuardian implements ParserNews {
-    public static final String URL = "https://www.theguardian.com/world";
+    public static final String URL = AddressToSites.THEGUARDIAN.getUrl();
 
     @Override
     public void getNews(int quantityOfNews) throws IOException {
